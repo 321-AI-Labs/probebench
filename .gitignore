@@ -28,6 +28,7 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Run artifacts (local judge logs and summaries are data, not source)
 logs/
