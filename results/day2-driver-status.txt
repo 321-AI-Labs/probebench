@@ -1,0 +1,79 @@
+[2026-09-15T20:16:21Z] === day2-driver launch (suite sha 72f9c91164db0246f27165544616c00f8898642a97fe23b76394d47081685761) ===
+[2026-09-15T20:16:21Z] server start p2-base on port 8095 from /a/models/p2/pair2-base-q8_0.gguf
+[2026-09-15T20:16:21Z] server start p2-variant on port 8096 from /a/models/p2/pair2-variant-q8_0.gguf
+[2026-09-15T20:16:27Z] health OK p2-base (port 8095) after 2 polls
+[2026-09-15T20:16:27Z] health OK p2-variant (port 8096) after 1 polls
+[2026-09-15T20:16:27Z] ARM START day2-p2-base (port 8095, subject p2-base)
+[2026-09-15T20:16:28Z] ARM END day2-p2-base rc=2 verdict_rows=0
+[2026-09-15T20:16:28Z] per-arm score FAILED for day2-p2-base
+[2026-09-15T20:16:28Z] ARM START day2-p2-variant (port 8096, subject p2-variant)
+[2026-09-15T20:16:29Z] ARM END day2-p2-variant rc=2 verdict_rows=0
+[2026-09-15T20:16:29Z] per-arm score FAILED for day2-p2-variant
+[2026-09-15T20:16:29Z] BDI score: day2-p2-variant vs base day2-p2-base
+[2026-09-15T20:16:29Z] BDI score FAILED day2-p2-variant vs day2-p2-base
+[2026-09-15T20:16:29Z] stopping P2 subject servers (pids: 10190 10194)
+[2026-09-15T20:16:31Z] subject servers down; ports 8095/8096 free
+[2026-09-15T20:16:32Z] server start p3-base on port 8095 from /a/models/p2/pair3-base-q8_0.gguf
+[2026-09-15T20:16:32Z] server start p3-variant on port 8096 from /a/models/p2/pair3-variant-q8_0.gguf
+[2026-09-15T20:16:37Z] health OK p3-base (port 8095) after 2 polls
+[2026-09-15T20:16:37Z] health OK p3-variant (port 8096) after 1 polls
+[2026-09-15T20:16:37Z] ARM START day2-p3-base (port 8095, subject p3-base)
+[2026-09-15T20:16:38Z] ARM END day2-p3-base rc=2 verdict_rows=0
+[2026-09-15T20:16:38Z] per-arm score FAILED for day2-p3-base
+[2026-09-15T20:16:38Z] ARM START day2-p3-variant (port 8096, subject p3-variant)
+[2026-09-15T20:16:38Z] ARM END day2-p3-variant rc=2 verdict_rows=0
+[2026-09-15T20:16:38Z] per-arm score FAILED for day2-p3-variant
+[2026-09-15T20:16:39Z] BDI score: day2-p3-variant vs base day2-p3-base
+[2026-09-15T20:16:39Z] BDI score FAILED day2-p3-variant vs day2-p3-base
+[2026-09-15T20:16:39Z] stopping P2 subject servers (pids: 10267 10271)
+[2026-09-15T20:16:41Z] subject servers down; ports 8095/8096 free
+[2026-09-15T20:16:41Z] server start demo-naive-q4 on port 8095 from /a/models/p1/demo/pair3-variant-naive-q4.gguf
+[2026-09-15T20:16:41Z] server start demo-editaware-q4 on port 8096 from /a/models/p1/demo/pair3-variant-editaware-q4.gguf
+[2026-09-15T20:16:47Z] health OK demo-naive-q4 (port 8095) after 2 polls
+[2026-09-15T20:16:47Z] health OK demo-editaware-q4 (port 8096) after 1 polls
+[2026-09-15T20:16:47Z] ARM START day2-demo-naive-q4 (port 8095, subject demo-naive-q4)
+[2026-09-15T20:16:47Z] ARM END day2-demo-naive-q4 rc=2 verdict_rows=0
+[2026-09-15T20:16:47Z] per-arm score FAILED for day2-demo-naive-q4
+[2026-09-15T20:16:47Z] ARM START day2-demo-editaware-q4 (port 8096, subject demo-editaware-q4)
+[2026-09-15T20:16:48Z] ARM END day2-demo-editaware-q4 rc=2 verdict_rows=0
+[2026-09-15T20:16:48Z] per-arm score FAILED for day2-demo-editaware-q4
+[2026-09-15T20:16:48Z] BDI score: day2-demo-editaware-q4 vs base day2-demo-naive-q4
+[2026-09-15T20:16:48Z] BDI score FAILED day2-demo-editaware-q4 vs day2-demo-naive-q4
+[2026-09-15T20:16:48Z] stopping P2 subject servers (pids: 10344 10348)
+[2026-09-15T20:16:50Z] subject servers down; ports 8095/8096 free
+[2026-09-15T20:16:50Z] ALL-ARMS-DONE (6/6 arms + 3 pair BDI scores)
+[2026-09-15T20:19:29Z] === day2-driver launch (suite sha 72f9c91164db0246f27165544616c00f8898642a97fe23b76394d47081685761) ===
+[2026-09-15T20:19:29Z] server start p2-base on port 8095 from /a/models/p2/pair2-base-q8_0.gguf
+[2026-09-15T20:19:29Z] server start p2-variant on port 8096 from /a/models/p2/pair2-variant-q8_0.gguf
+[2026-09-15T20:19:35Z] health OK p2-base (port 8095) after 2 polls
+[2026-09-15T20:19:35Z] health OK p2-variant (port 8096) after 1 polls
+[2026-09-15T20:19:35Z] ARM START day2-p2-base (port 8095, subject p2-base)
+[2026-09-15T23:26:18Z] ARM END day2-p2-base rc=0 verdict_rows=360
+[2026-09-15T23:26:18Z] ARM START day2-p2-variant (port 8096, subject p2-variant)
+[2026-09-16T04:55:23Z] ARM END day2-p2-variant rc=0 verdict_rows=360
+[2026-09-16T04:55:23Z] BDI score: day2-p2-variant vs base day2-p2-base
+[2026-09-16T04:55:23Z] stopping P2 subject servers (pids: 10544 10548)
+[2026-09-16T04:55:26Z] subject servers down; ports 8095/8096 free
+[2026-09-16T04:55:26Z] server start p3-base on port 8095 from /a/models/p2/pair3-base-q8_0.gguf
+[2026-09-16T04:55:26Z] server start p3-variant on port 8096 from /a/models/p2/pair3-variant-q8_0.gguf
+[2026-09-16T04:55:38Z] health OK p3-base (port 8095) after 3 polls
+[2026-09-16T04:55:38Z] health OK p3-variant (port 8096) after 1 polls
+[2026-09-16T04:55:38Z] ARM START day2-p3-base (port 8095, subject p3-base)
+[2026-09-16T11:27:21Z] ARM END day2-p3-base rc=0 verdict_rows=360
+[2026-09-16T11:27:21Z] ARM START day2-p3-variant (port 8096, subject p3-variant)
+[2026-09-16T14:52:50Z] ARM END day2-p3-variant rc=0 verdict_rows=360
+[2026-09-16T14:52:51Z] BDI score: day2-p3-variant vs base day2-p3-base
+[2026-09-16T14:52:51Z] stopping P2 subject servers (pids: 16345 16349)
+[2026-09-16T14:52:53Z] subject servers down; ports 8095/8096 free
+[2026-09-16T14:52:53Z] server start demo-naive-q4 on port 8095 from /a/models/p1/demo/pair3-variant-naive-q4.gguf
+[2026-09-16T14:52:53Z] server start demo-editaware-q4 on port 8096 from /a/models/p1/demo/pair3-variant-editaware-q4.gguf
+[2026-09-16T14:53:00Z] health OK demo-naive-q4 (port 8095) after 2 polls
+[2026-09-16T14:53:00Z] health OK demo-editaware-q4 (port 8096) after 1 polls
+[2026-09-16T14:53:00Z] ARM START day2-demo-naive-q4 (port 8095, subject demo-naive-q4)
+[2026-09-16T17:14:35Z] ARM END day2-demo-naive-q4 rc=0 verdict_rows=360
+[2026-09-16T17:14:35Z] ARM START day2-demo-editaware-q4 (port 8096, subject demo-editaware-q4)
+[2026-09-16T19:55:03Z] ARM END day2-demo-editaware-q4 rc=0 verdict_rows=360
+[2026-09-16T19:55:03Z] BDI score: day2-demo-editaware-q4 vs base day2-demo-naive-q4
+[2026-09-16T19:55:03Z] stopping P2 subject servers (pids: 16769 16773)
+[2026-09-16T19:55:06Z] subject servers down; ports 8095/8096 free
+[2026-09-16T19:55:06Z] ALL-ARMS-DONE (6/6 arms + 3 pair BDI scores)

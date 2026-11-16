@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ProbeBench: Measuring Behavior Drift in Knowledge-Edited Language Models with Bias-Corrected AI Judge Panels"
+authors:
+  - family-names: Casey
+    given-names: Kiyoshi
+    affiliation: "321 AI Labs"
+    orcid: "https://orcid.org/0009-0006-6256-9325"
+version: 1.0.0
+date-released: 2026-11-16
+license: MIT
+url: "https://github.com/321-AI-Labs/probebench"
+notes: "Zenodo DOI pending at v1.0.0 cut; concept DOI backfills here after the GitHub release mints it."

@@ -1,0 +1,12 @@
+0.01.390.168 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.01.390.420 W srv  llama_server: -----------------
+0.01.390.424 W srv  llama_server: CORS is set to allow all origins ('*') and no API key is set
+0.01.390.425 W srv  llama_server: this can be a security risk (cross-origin attacks)
+0.01.390.426 W srv  llama_server: more info: https://github.com/ggml-org/llama.cpp/pull/25655
+0.01.390.426 W srv  llama_server: -----------------
+0.01.393.971 I srv    load_model: loading model 'A:/models/p1/demo/pair3-variant-naive-q4.gguf'
+0.02.004.295 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.02.373.407 I cmn          init: llama threadpool init, n_threads = 8
+0.03.624.978 I srv    load_model: initializing, n_slots = 4, n_ctx_slot = 8192, kv_unified = 'true'
+0.03.631.649 I srv  llama_server: model loaded
+0.03.631.657 I srv  llama_server: listening on http://127.0.0.1:8095
