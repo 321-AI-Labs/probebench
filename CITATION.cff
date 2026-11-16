@@ -10,4 +10,5 @@ version: 1.0.0
 date-released: 2026-11-16
 license: MIT
 url: "https://github.com/321-AI-Labs/probebench"
-notes: "Zenodo DOI pending at v1.0.0 cut; concept DOI backfills here after the GitHub release mints it."
+doi: "10.5281/zenodo.24293888"
+notes: "Zenodo version DOI: 10.5281/zenodo.24293888; concept DOI: 10.5281/zenodo.24293887."

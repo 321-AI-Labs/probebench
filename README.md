@@ -95,8 +95,9 @@ validity section for the full list.
 
 ## Citation
 
-See `CITATION.cff`. Zenodo DOI backfills here after the v1.0.0 GitHub release
-mints it.
+See `CITATION.cff`. Zenodo v1.0.0 DOI:
+[10.5281/zenodo.24293888](https://doi.org/10.5281/zenodo.24293888). Concept
+DOI: [10.5281/zenodo.24293887](https://doi.org/10.5281/zenodo.24293887).
 
 ```bibtex
 @software{casey2026probebench,
